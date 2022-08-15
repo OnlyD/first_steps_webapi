@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace HelloWorld.Controllers
 {
@@ -6,7 +7,12 @@ namespace HelloWorld.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private static string[] Summaries = new[]
+        {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
+
+        private static List<string> SummariesList = new List<string>()
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
@@ -37,22 +43,62 @@ namespace HelloWorld.Controllers
         }
 
         // Regrese un elemento del arreglo por posicion
-        [HttpPost(Name = "PostPositionArray")]
+        [HttpGet("Position")]
         public string Post(int a)
         {
-            if (a > Summaries.Length)
+            var position = "";
+            try
             {
-                var message = string.Format("Product with index = {0} not found", a);
-                return new String(message.ToArray());
+                position = Summaries[a];
             }
-            else
+            catch
             {
-                return new String(Summaries[a].ToArray());
+                return "error";
             }
+
+            return position;
+        }
+        //int
+        //float
+        //objeto
+        [HttpGet("Search")]
+        public string? GetSearch(string summary)
+        {
+            return Summaries.FirstOrDefault(x => x.Contains(summary));
         }
 
+        [HttpGet("search-list")]
+        public IEnumerable<string> GetList(string summary)
+        {
+            return Summaries.Where(x => x.Contains(summary));
+        }
 
+        [HttpPost("summaryArray")]
+        public IEnumerable<string> NewSummary([FromBody] string summary)
+        {
+            return Summaries.Append(summary).ToArray();
+        }
+
+        [HttpPost("summaryList")]
+        public IEnumerable<string> NewSummaryList([FromBody] string summary)
+        {
+            return SummariesList.Append(summary).ToList();
+        }
+
+        [HttpGet("summaryList")]
+        public int CountSummariesList()
+        {
+            return Summaries.Count();
+        }
+
+        [HttpGet("summaryListlenght")]
+        public int LenghtSummariesList()
+        {
+            return Summaries.Length;
+        }
 
         // Agregar un elemento al arreglo y regresar todos
+        // Hacer las busquedas -> Linq case ignore
+        // Hacer un request de cada verbo Http
     }
 }
