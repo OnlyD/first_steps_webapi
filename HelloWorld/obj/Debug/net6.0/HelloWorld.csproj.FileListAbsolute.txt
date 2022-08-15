@@ -25,3 +25,30 @@ C:\Users\islas\src\first_steps_webapi\HelloWorld\obj\Debug\net6.0\refint\HelloWo
 C:\Users\islas\src\first_steps_webapi\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
 C:\Users\islas\src\first_steps_webapi\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
 C:\Users\islas\src\first_steps_webapi\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\appsettings.Development.json
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\appsettings.json
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub Projects\HelloWorld\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\staticwebassets.build.json
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\staticwebassets.development.json
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\scopedcss\bundle\HelloWorld.styles.css
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CopyComplete
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+D:\GitHub Projects\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
