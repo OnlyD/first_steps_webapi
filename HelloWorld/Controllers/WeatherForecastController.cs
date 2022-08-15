@@ -37,6 +37,21 @@ namespace HelloWorld.Controllers
         }
 
         // Regrese un elemento del arreglo por posicion
+        [HttpPost(Name = "PostPositionArray")]
+        public string Post(int a)
+        {
+            if (a > Summaries.Length)
+            {
+                var message = string.Format("Product with index = {0} not found", a);
+                return new String(message.ToArray());
+            }
+            else
+            {
+                return new String(Summaries[a].ToArray());
+            }
+        }
+
+
 
         // Agregar un elemento al arreglo y regresar todos
     }
