@@ -98,6 +98,12 @@ namespace HelloWorld.Controllers
         }
 
         // Agregar un elemento al arreglo y regresar todos
+        [HttpPatch("AddSummary")]
+        public IEnumerable<string> AddSummaries([FromBody] string text)
+        {
+            SummariesList.Add(text);
+            return SummariesList;
+        }
         // Hacer las busquedas -> Linq case ignore
         // Hacer un request de cada verbo Http
     }

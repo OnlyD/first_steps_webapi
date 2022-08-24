@@ -296,19 +296,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\islas\\.nuget\\packages\\": {}
+    "C:\\Users\\the_l\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\islas\\src\\first_steps_webapi\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "D:\\Backend Study\\FistSteps_Project\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\islas\\src\\first_steps_webapi\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\islas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\islas\\src\\first_steps_webapi\\HelloWorld\\obj\\",
+      "projectPath": "D:\\Backend Study\\FistSteps_Project\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\the_l\\.nuget\\packages\\",
+      "outputPath": "D:\\Backend Study\\FistSteps_Project\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\islas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\the_l\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -361,7 +361,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
